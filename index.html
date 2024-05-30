@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .x{
+
+display:none
+}
+
+    .addproduct {
+
+        background-color: #30577e;; 
+    display: grid;
+    justify-content: center;
+}
+    
+
+    .all {
+        padding-left: 271px;
+        margin-top: -429px;
+    }
+
+    #Category_Card {
+
+        width: 255px;
+        height: 600px;
+        left: 165px;
+        top: 930px;
+        overflow: visible;
+    }
+
+
+
+    .sidebar {
+        z-index: 1;
+        top: 0;
+        background: #30577e;;
+        margin-top: -222px;
+        padding-top: 30px;
+
+        left: 0;
+        width: 216px;
+
+        height: calc(100% - 9%);
+        transition: 0.5s;
+        transition-property: left;
+        overflow-y: auto;
+        padding-bottom: 1%;
+    }
+
+    .profile_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sidebar .profile_info h4 {
+        color: #ccc;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .sidebar a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        line-height: 60px;
+        text-decoration: none;
+        padding-left: 40px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background;
+    }
+
+    .sidebar a:hover {
+        background: khaki
+    }
+
+    .sidebar i {
+        padding-right: 10px;
+    }
+
+
+    .slider {
+
+        margin: auto;
+        display: table;
+    }
+
+    .twits {
+        margin: auto;
+        display: table;
+
+    }
+    .buttons{
+        margin: auto;
+        display: table;}
+
+
+    .cart {
+
+        display: grid;
+    }
+
+    .products {
+
+        display: inline-grid;
+
+
+    }
+</style>
+
+<body>
+    <table id="mostafatable">
+        <div class="slider">
+            <img src="ID1_Buttons1_Large6_Rounded2_B_nb.png" class="left">
+
+            <img src="apple1.jpg" class="picture">
+            <img src="ID1_Buttons1_Large6_Rounded2_B_ne.png" class="right">
+
+        </div>
+        <div class="twits">
+
+            <img src="ID3_Iconsic_twitter_ct.png" class="work">
+            <img src="ID3_Iconsic_twitter_ct.png" class="work">
+            <img src="ID3_Iconsic_twitter_ct.png" class="work">
+
+        </div>
+<form></my><div class="buttons">
+<input type="search"  id="searchinput">
+<button type="submit" id="searchbutton">search</button>
+<button type="reset" id="searchfield">reset</button>
+</form>
+
+</div>
+
+        <div class="container">
+            <div class="sidebar">
+                <div id="Category_Card">
+                    <a href="#" id="comp"><span class="sizemyicon"> <img
+                                src="New folder (3)\ID3_Iconsic_desktop_mac_j.png"></span><span>computers</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="app"><span class="sizemyicon"> <img
+                                src="ID3_Iconsic_desktop_mac_j.png"></span><span>apple computers</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="lap"><span class="sizemyicon"><img
+                                src="New folder (3)\ID3_Iconsic_laptop_kh.png"></span><span>laptops</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="friends"><span class="sizemyicon"><MdAccountCircle /></span><span>Friends</span><i>
+                            <img src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="compn"><span class="sizemyicon"><img
+                                src="ID3_Iconsic_memory_k.png"></span><span>computer components</span><img
+                            src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></a>
+                    <a href="#" id="acc"><span class="sizemyicon"><img
+                                src="ID3_Iconsic_speaker_k.png"></span><span>accessories</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="cellp"><span class="sizemyicon"><img
+                                src="New folder (3)\ID3_Iconsic_phone_iphone_cs.png"></span><span>cell phones</span><i>
+                            <img src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="telve"><span class="sizemyicon"><img
+                                src="New folder (3)\ID3_Iconsic_tv_c.png"></span><span>tv&videos</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#"><span class="sizemyicon"><img src="ID3_Iconsic_videogame_asset_lt.png"></span><span>Game
+                            consoles</span><i> <img src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                    <a href="#" id="wat"><span class="sizemyicon"><img
+                                src="ID3_Iconsic_watch_l.png"></span><span>watches</span><i> <img
+                                src="ID3_Iconsic_keyboard_arrow_rig_ll.png"></i></a>
+                </div>
+            </div>
+            <div class="all">
+                <div class="products"><img src="labs\lap1.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h  class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add1">add to cart</button>
+
+                </div>
+                <div class="products"><img src="labs\lap2.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h  class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add2">add to cart</button>
+
+                </div>
+                <div class="products"><img src="labs\lap3.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h  class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add3">add to cart</button>
+
+                </div>
+                <div class="products"><img src="labs\lap4.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h  class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add4">add to cart</button>
+
+                </div>
+                <div class="products"><img src="labs\lap5.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h   class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add5">add to cart</button>
+
+                </div>
+                <div class="products" ><img src="labs\lap6.jpg" class="changephoto">
+                    <label for="name">name:</label>
+                    <h  class="nameofproduct">lab1</h>
+                    <label for="price">price:</label>
+                    <h class="price">750$</h>
+                    <button type="submit" id="add6">add to cart</button>
+
+                </div>
+
+                <div class="x" id="appending">
+                    <img src="lap1.jpg" id="changephoto">
+                    <label for="name">name:</label>
+                    <span id="nam">mgmm</span>
+                    <label for="price">price:</label>
+                    <span id="pric">dkkd</span>
+                    <button type="submit" id="add1">add to cart</button>
+
+                </div>
+
+            </div>
+
+        
+    <div class="cart">
+        <img src="labs\ID3_Iconsic_shopping_cart_op@2x.png">
+        <label>number of carts</label>
+        <input type="number" id="numofbuy" value=0>
+
+        <label> total price</label>
+        <input type="number" id="totalprice" value="0">
+
+
+
+
+    </div>
+    
+        <div class="addproduct">
+            
+           <input type="file" id="uploadimage"  src=""> 
+
+
+            <label> name of product </label>
+            <input id="newproductname" type="text">
+            <label> price of product</label>
+            <input id="newproductprice" type="number">
+            <button type="submit" id="addnewproduct"> add</button>
+
+        </div>
+    
+
+        <script src="search.js"></script>
+    <script src="addproduct.js"></script>
+    <script src="cart.js"></script>
+    <script src="cat.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+
+</html>
